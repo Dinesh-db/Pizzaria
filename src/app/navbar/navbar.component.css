@@ -1,0 +1,88 @@
+.con-nav-1 {
+  display: flex;
+
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+
+}
+
+.nav-links {
+  margin: 0 20px;
+  font-size: 20px;
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-links a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background:red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width .3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+
+.nav-links a.active {
+  background-color:green;
+}
+
+
+.hamburger {
+  width: 30px;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+
+@media (max-width: 700px) {
+  .menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .nav-links {
+    margin: 10px 0;
+  }
+}
