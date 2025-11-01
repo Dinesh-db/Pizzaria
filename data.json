@@ -1,3 +1,49 @@
-[{
-    
-}]
+{
+  "pizzas": [
+    {
+      "name": "Margherita",
+      "type": "Veg",
+      "price": 249,
+      "image": "https://example.com/images/margherita.jpg",
+      "description": "Classic delight with 100% real mozzarella cheese and fresh tomato sauce.",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Basil", "Olive Oil"],
+      "toppings": ["Extra Cheese", "Oregano"]
+    },
+    {
+      "name": "Pepperoni Feast",
+      "type": "Non-Veg",
+      "price": 399,
+      "image": "https://example.com/images/pepperoni-feast.jpg",
+      "description": "Loaded with spicy pepperoni slices and rich mozzarella cheese.",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Pepperoni", "Chili Flakes"],
+      "toppings": ["Extra Cheese", "Jalapenos"]
+    },
+    {
+      "name": "Farmhouse",
+      "type": "Veg",
+      "price": 329,
+      "image": "https://example.com/images/farmhouse.jpg",
+      "description": "A delightful combination of crisp capsicum, fresh tomatoes, onions, and mushrooms.",
+      "ingredients": ["Mozzarella Cheese", "Capsicum", "Tomato", "Onion", "Mushroom"],
+      "toppings": ["Black Olives", "Extra Cheese"]
+    },
+    {
+      "name": "Chicken Dominator",
+      "type": "Non-Veg",
+      "price": 459,
+      "image": "https://example.com/images/chicken-dominator.jpg",
+      "description": "Loaded with double pepper barbecue chicken, peri-peri chicken, and cheese.",
+      "ingredients": ["BBQ Chicken", "Peri-Peri Chicken", "Tomato Sauce", "Mozzarella Cheese"],
+      "toppings": ["Onions", "Jalapenos", "Oregano"]
+    },
+    {
+      "name": "Paneer Makhani",
+      "type": "Veg",
+      "price": 359,
+      "image": "https://example.com/images/paneer-makhani.jpg",
+      "description": "A fusion of Indian flavors — soft paneer cubes in creamy makhani sauce.",
+      "ingredients": ["Paneer", "Makhani Sauce", "Mozzarella Cheese", "Capsicum"],
+      "toppings": ["Coriander", "Chili Flakes"]
+    }
+  ]
+}
