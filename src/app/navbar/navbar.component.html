@@ -1,11 +1,11 @@
 <div class="con-nav-1">
 
-  <!-- Hamburger Button -->
+
   <div class="hamburger" (click)="isMenuOpen = !isMenuOpen">
     <span></span><span></span><span></span>
   </div>
 
-  <!-- Menu -->
+  
   <div class="menu" [class.open]="isMenuOpen">
     <div class="nav-links">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
