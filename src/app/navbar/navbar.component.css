@@ -12,6 +12,10 @@
 
 }
 
+.nav-links.cart {
+  margin-left: auto;
+}
+
 .nav-links {
   margin: 0 20px;
   font-size: 20px;
@@ -73,7 +77,9 @@
     flex-direction: column;
     margin-top: 10px;
   }
-
+  .nav-links.cart {
+    margin-left: 0;
+  }
   .hamburger {
     display: flex;
   }
