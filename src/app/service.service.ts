@@ -6,5 +6,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ServiceService {
 
-  constructor(private http=HttpClient) { }
+  constructor(private http:HttpClient) { 
+  }
+
+  adddata(d:any){
+    console.log("sevice tab",d);
+  }
 }

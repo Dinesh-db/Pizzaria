@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import data from '../../assets/data.json';
+import { ServiceService } from '../service.service';
+
 @Component({
   selector: 'app-orders',
   templateUrl: './orders.component.html',
@@ -7,7 +9,10 @@ import data from '../../assets/data.json';
 })
 export class OrdersComponent {
   pizzas=data.pizzas;
-  constructor(){
-    console.log(this.pizzas);
+  constructor(private pc:ServiceService){
+  }
+
+  senddata(){
+    this.pc.adddata(this.pizzas);
   }
 }
