@@ -16,6 +16,28 @@ mongoose.connect(url)
 app.use(cors());
 app.use(express.json());
 
+
+
+const pizzaSchema = new mongoose.Schema({
+  name: String,
+  type: String,
+  price: Number,
+  image: String,
+  description: String,
+  ingredients: [String],
+  toppings: [String]
+});
+
+const Place = mongoose.model("Pizza", pizzaSchema);
+
+app.post("/order",(req,res)=>{
+    Place.create(req.body,(err,data)=>{
+        console.log(data);
+        res.send(data);
+        res.end();
+    })
+})
+
 app.get('/', (req, res) => {
   res.send(`<h1>Server running</h1>`);
 });
