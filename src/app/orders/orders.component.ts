@@ -12,7 +12,9 @@ export class OrdersComponent {
   constructor(private pc:ServiceService){
   }
 
-  senddata(){
-    this.pc.adddata(this.pizzas);
+  getdatas(){
+    this.pc.getdata().subscribe((e)=>{
+      console.log("data recieved")
+    });
   }
 }
