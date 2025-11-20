@@ -2,5 +2,10 @@
 <h1>Order Page</h1>
 <button (click)="getdatas()">Getdata</button>
 <div *ngFor="let d of pizza">
-    <p>{{d}}</p>
+    <div *ngIf="isClicked; else elseblock">
+        <p>{{d.name}}</p>
+    </div>
+    <ng-template #elseblock>
+        <div></div>
+    </ng-template>
 </div>

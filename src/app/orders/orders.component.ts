@@ -14,7 +14,9 @@ export class OrdersComponent {
     
   }
   pizza:any;
+  isClicked:boolean=false;
   getdatas(){
+    this.isClicked=true;
     console.log("data we get",this.pizza);
   }
 }
