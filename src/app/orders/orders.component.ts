@@ -19,4 +19,7 @@ export class OrdersComponent {
     this.isClicked=true;
     console.log("data we get",this.pizza);
   }
+  cleardata(){
+    this.isClicked=false;
+  }
 }

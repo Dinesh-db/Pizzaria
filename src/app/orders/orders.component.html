@@ -1,6 +1,7 @@
 <p>orders works!</p>
 <h1>Order Page</h1>
-<button (click)="getdatas()">Getdata</button>
+<button (click)="getdatas()">Get</button>
+<button (click)="cleardata()">Clear</button>
 <div *ngFor="let d of pizza">
     <div *ngIf="isClicked; else elseblock">
         <p>{{d.name}}</p>
