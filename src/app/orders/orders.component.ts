@@ -14,7 +14,7 @@ export class OrdersComponent {
 
   getdatas(){
     this.pc.getdata().subscribe((e)=>{
-      console.log("data recieved")
+      console.log("data recieved",e);
     });
   }
 }
