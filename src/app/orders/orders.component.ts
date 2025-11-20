@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import data from '../../assets/data.json';
 import { ServiceService } from '../service.service';
 
 @Component({
@@ -8,7 +7,6 @@ import { ServiceService } from '../service.service';
   styleUrls: ['./orders.component.css']
 })
 export class OrdersComponent {
-  pizzas=data.pizzas;
   constructor(private pc:ServiceService){
   }
 
