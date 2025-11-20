@@ -10,8 +10,9 @@ export class OrdersComponent {
   constructor(private pc:ServiceService){
     this.pc.getdata().subscribe((e)=>{
       this.pizza=e;
+      console.log(e);
     })
-    console.log(this.pizza);
+    
   }
   pizza:any;
   getdatas(){
