@@ -17,7 +17,9 @@ export class OrdersComponent {
   isClicked:boolean=false;
   getdatas(){
     this.isClicked=true;
+    
   }
+  
   cleardata(){
     this.isClicked=false;
   }
