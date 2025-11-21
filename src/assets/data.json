@@ -4,7 +4,7 @@
       "name": "Margherita",
       "type": "Veg",
       "price": 249,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fau.ooni.com%2Fblogs%2Frecipes%2Fmargherita-pizza&psig=AOvVaw31bm6DjlD9WF00DJ73ZaV-&ust=1763824930525000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPC22IPGg5EDFQAAAAAdAAAAABAE",
+      "image": "https://au.ooni.com/cdn/shop/articles/20220211142645-margherita-9920.jpg?v=1737368217&width=1080",
       "description": "Classic delight with 100% real mozzarella cheese and fresh tomato sauce.",
       "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Basil", "Olive Oil"],
       "toppings": ["Extra Cheese", "Oregano"]
@@ -13,7 +13,7 @@
       "name": "Pepperoni Feast",
       "type": "Non-Veg",
       "price": 399,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.renewit.in%2F%3Fn%3D64197784081390&psig=AOvVaw3_Gd9HgHayCvTlxtZo4SLn&ust=1763824998286000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIDE26XGg5EDFQAAAAAdAAAAABAV",
+      "image": "https://www.dominos.com.my/ManagedAssets/MY/product/PXBF/MY_PXBF_en_hero_12818.jpg?v1269223727",
       "description": "Loaded with spicy pepperoni slices and rich mozzarella cheese.",
       "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Pepperoni", "Chili Flakes"],
       "toppings": ["Extra Cheese", "Jalapenos"]
@@ -22,7 +22,7 @@
       "name": "Farmhouse",
       "type": "Veg",
       "price": 329,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mrprabhu.in%2Fitem%2Ffarm-house-pizza&psig=AOvVaw3pAk2zvfcxdAhjIqFijdbH&ust=1763825046756000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLi8zbvGg5EDFQAAAAAdAAAAABAE",
+      "image": "https://www.mrprabhu.in/uploads/products/203--1736798822.jpg",
       "description": "A delightful combination of crisp capsicum, fresh tomatoes, onions, and mushrooms.",
       "ingredients": ["Mozzarella Cheese", "Capsicum", "Tomato", "Onion", "Mushroom"],
       "toppings": ["Black Olives", "Extra Cheese"]
@@ -31,7 +31,7 @@
       "name": "Chicken Dominator",
       "type": "Non-Veg",
       "price": 459,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fchicken-dominator-19092901397.html%3Fsrsltid%3DAfmBOooPR_Yqy-enmqVOPaWThi474g2sQsmRwu_5SSDKf8-e-kZ_9odc&psig=AOvVaw23qyIzMh-ub7nYlv5yYuMz&ust=1763825074907000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDgwcjGg5EDFQAAAAAdAAAAABAE",
+      "image": "https://5.imimg.com/data5/DM/ES/MY-29540739/chicken-dominator-1000x1000.png",
       "description": "Loaded with double pepper barbecue chicken, peri-peri chicken, and cheese.",
       "ingredients": ["BBQ Chicken", "Peri-Peri Chicken", "Tomato Sauce", "Mozzarella Cheese"],
       "toppings": ["Onions", "Jalapenos", "Oregano"]
@@ -40,7 +40,7 @@
       "name": "Paneer Makhani",
       "type": "Veg",
       "price": 359,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.swadsafari.in%2Fproducts%2Fmakhani-paneer-pizza-SKU-0050&psig=AOvVaw0AU90skxOK6F5FDpAXyVWj&ust=1763825106338000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiCh9fGg5EDFQAAAAAdAAAAABAE",
+      "image":"https://imademycake.com/wp-content/uploads/2022/07/Paneer-Makhani-pizza2-1024x1024.png",
       "description": "A fusion of Indian flavors — soft paneer cubes in creamy makhani sauce.",
       "ingredients": ["Paneer", "Makhani Sauce", "Mozzarella Cheese", "Capsicum"],
       "toppings": ["Coriander", "Chili Flakes"]
