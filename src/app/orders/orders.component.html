@@ -6,10 +6,18 @@
     <div *ngFor="let d of pizza" class="cart">
         <div class="pizza">
             <p>{{d.name}}</p>
-            <p>{{d.type}}</p>
+            <div *ngIf="d.type=='Non-Veg'; else elseblock">
+                <img [src]="nonveg" style="width: 30px; height: 30px;">
+            </div>
+            <ng-template #elseblock>
+                <img [src]="veg" style="width: 30px; height: 30px;">
+            </ng-template>
             <p>{{d.price}}</p>
             <p>{{d.description}}</p>
             <img [src]="d.image" style="width: 170px; height: 170px;">
+            <h3>Ingredients:</h3> <p>{{d.ingredients}}</p>
+            <h4>Toppings: </h4><p>{{d.toppings}}</p>
+            
         </div>
         <div *ngIf="isClicked; else elseblock">
 
