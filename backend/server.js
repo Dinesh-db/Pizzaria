@@ -51,3 +51,6 @@ app.get('/', (req, res) => {
 app.listen(9000, () => {
   console.log("Server running on port 9000...");
 });
+app.listen(9000,"192.168.1.6",()=>{
+  console.log("Running on server");
+});

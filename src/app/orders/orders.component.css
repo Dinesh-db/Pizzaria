@@ -34,4 +34,12 @@
         border-left-width: 10px;
         border-left-color: red;
     }
+    .con-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart{
+        width: fit-content;
+        margin: auto;
+    }
 }
