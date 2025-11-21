@@ -1,0 +1,33 @@
+.pizza{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    width:500px;
+    margin-top: 30px;
+    padding: 50px;
+    padding: auto;
+    border-radius: 10px;
+    border-left:solid;
+    border-left-width: 10px;
+    border-left-color: red;
+}
+
+.cart{
+    display: flex;
+    width: 50%;
+    flex:1 0 40%;
+}
+
+@media(max-width:700px){
+    .pizza{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: auto;
+        width:300px;
+        margin-top: 30px;
+        padding: 50px;
+        padding: auto;
+        border-radius: 10px;
+        border-left:solid;
+        border-left-width: 10px;
+        border-left-color: red;
+    }
+}
