@@ -17,7 +17,6 @@ export class OrdersComponent {
   isClicked:boolean=false;
   getdatas(){
     this.isClicked=true;
-    console.log("data we get",this.pizza);
   }
   cleardata(){
     this.isClicked=false;

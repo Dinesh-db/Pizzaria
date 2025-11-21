@@ -1,10 +1,14 @@
-<p>orders works!</p>
+
 <h1>Order Page</h1>
 <button (click)="getdatas()">Get</button>
 <button (click)="cleardata()">Clear</button>
 <div *ngFor="let d of pizza">
     <div *ngIf="isClicked; else elseblock">
         <p>{{d.name}}</p>
+        <p>{{d.type}}</p>
+        <p>{{d.price}}</p>
+        <p>{{d.description}}</p>
+        <img [src]="d.image">
     </div>
     <ng-template #elseblock>
         <div></div>
