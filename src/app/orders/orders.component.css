@@ -11,10 +11,14 @@
     border-left-color: red;
 }
 
+.con-1{
+    display: flex;
+    flex-wrap: wrap;
+}
 .cart{
+    flex: 1 0 40%;
     display: flex;
     width: 50%;
-    flex:1 0 40%;
 }
 
 @media(max-width:700px){
