@@ -11,7 +11,7 @@ export class ServiceService {
     this.http.post("http://localhost:9000/order",data.pizzas);
   }
   senddata(d:any){
-    console.log("data sented");
+    
     return this.http.post("http://localhost:9000/order",d);
   }
 
