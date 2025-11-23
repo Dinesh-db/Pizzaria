@@ -19,4 +19,7 @@ export class ServiceService {
     let url="http://localhost:9000/";
     return this.http.get(url);
   }
+  cartdata(){
+    console.log("Cart....");
+  }
 }
