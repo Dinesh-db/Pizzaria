@@ -17,6 +17,9 @@ export class OrdersComponent {
     })
     
   }
+  addcart(){
+    console.log("Adding to cart...");
+  }
   pizza:any;
   isClicked:boolean=false;
   getdatas(){

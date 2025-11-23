@@ -17,7 +17,7 @@
             <img [src]="d.image" style="width: 170px; height: 170px;">
             <h3>Ingredients:</h3> <p>{{d.ingredients}}</p>
             <h4>Toppings: </h4><p>{{d.toppings}}</p>
-            <button>Add to cart</button>
+            <button (click)="addcart()">Add to cart</button>
             <p>QTY</p>
             <select>
                 <option>1</option>
