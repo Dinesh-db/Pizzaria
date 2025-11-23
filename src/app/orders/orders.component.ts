@@ -18,7 +18,7 @@ export class OrdersComponent {
     
   }
   addcart(){
-    console.log("Adding to cart...");
+    this.pc.cartdata();
   }
   pizza:any;
   isClicked:boolean=false;
