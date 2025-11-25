@@ -1,0 +1,8 @@
+.con-1 {
+  background-image: url('/assets/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* FIXED BACKGROUND */
+  min-height: 100vh;
+}
