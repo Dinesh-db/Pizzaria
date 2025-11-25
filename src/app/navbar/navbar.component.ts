@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  logoimg:string="../../assets/images/logo2.png";
   islogged:boolean=false;
 }

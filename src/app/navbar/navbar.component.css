@@ -1,7 +1,8 @@
 
 .con-nav-1{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: black;
+  background-color: #fff;
+  color: black;
   border-radius: 10px;
   border-bottom: solid;
   border-bottom-color:red ;
@@ -15,7 +16,7 @@
 
 .name p{
   display: inline;
-  color: #fff;
+  color: #222;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-item {
@@ -26,7 +27,7 @@
 .nav-item a{
   margin: auto;
   text-decoration: none;
-  color: white;
+  color: #222;
 }
 
 
