@@ -1,9 +1,25 @@
+
+.con-nav-1{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .nav-items{
+  padding: 10px;
   display: flex;
 }
 
-.nav-item a{
+.name p{
+  display: inline;
+}
+.nav-item {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.nav-item a{
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+
 
