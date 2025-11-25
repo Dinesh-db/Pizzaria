@@ -1,31 +1,26 @@
-<div class="con-nav-1">
-
-
-  <div class="hamburger" (click)="isMenuOpen = !isMenuOpen">
-    <
-    <span></span><span></span><span></span>
+<div class="con-nav1">
+  <div>
+    <div>
+      <a routerLink="/">Home</a>
+    </div>
+    <div >
+      <a routerLink="/orders">Menu</a>
+    </div>
+    <div >
+      <a routerLink="/about">About</a>
+    </div>
+    <div>
+      <a routerLink="/contact">Contact</a>
+    </div>
+    
+    <div *ngIf="islogged; else elseblock2">
+      <a routerLink="/login">Logout</a>
+    </div>
+    <ng-template #elseblock2>
+      <div>
+        <a routerLink="/login">Login</a>
+        <a routerLink="/signup">SignUp</a>
+      </div>
+    </ng-template>
   </div>
-
-  
-  <div class="menu" [class.open]="isMenuOpen">
-    <div class="nav-links">
-      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-         (click)="isMenuOpen = false">Home</a>
-    </div>
-    <div class="nav-links">
-      <a routerLink="/orders" routerLinkActive="active"
-         (click)="isMenuOpen = false">Orders</a>
-    </div>
-    <div class="nav-links">
-      <a routerLink="/built" routerLinkActive="active"
-         (click)="isMenuOpen = false">Builds</a>
-    </div>
-    <div class="nav-links cart">
-      <a routerLink="/cart" routerLinkActive="active"
-         (click)="isMenuOpen = false">
-        <span class="material-icons">shopping_cart</span> Cart
-      </a>
-    </div>
-  </div>
-
 </div>
