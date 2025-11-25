@@ -1,12 +1,11 @@
 
 .con-nav-1{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: #fff;
+  background-color: orange;
   color: black;
   border-radius: 10px;
   border-bottom: solid;
-  border-bottom-color:red ;
-
+  border-bottom-color:red;
 }
 
 .nav-items{
