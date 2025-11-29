@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   logoimg:string="../../assets/homelogo.png";
   islogged:boolean=false;
+  menuOpen = false;
+
 }
