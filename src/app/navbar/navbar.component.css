@@ -29,6 +29,9 @@
   color: #222;
 }
 
+.login{
+  margin-right: auto;
+}
 @media (max-width:720px){
 
   .con-nav-1{

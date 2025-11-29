@@ -18,12 +18,12 @@
         <a routerLink="/contact">Contact</a>
       </div>
       
-      <div *ngIf="islogged; else elseblock2" class="nav-item">
-        <a routerLink="/" class="login">Logout</a>
+      <div *ngIf="islogged; else elseblock2" class="nav-item login">
+        <a routerLink="/" >Logout</a>
       </div>
       <ng-template #elseblock2>
-        <div class="nav-item">
-          <a routerLink="/login" class="login">Login | Signup</a>
+        <div class="nav-item login">
+          <a routerLink="/login" Login | Signup</a>
         </div>
         
       </ng-template>
