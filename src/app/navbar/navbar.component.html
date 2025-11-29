@@ -1,32 +1,44 @@
 <div class="con-nav">
   <div class="con-nav-1">
     <div class="nav-items">
-      <div class="nav-item name" >
-      
+
+      <div class="nav-item name">
         
+        <p>Pizza</p>
       </div>
+
       <div class="nav-item">
-        <a routerLink="/">Home</a>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
       </div>
+
       <div class="nav-item">
-        <a routerLink="/orders">Menu</a>
+        <a routerLink="/orders" routerLinkActive="active">Menu</a>
       </div>
+
       <div class="nav-item">
-        <a routerLink="/about">About</a>
+        <a routerLink="/about" routerLinkActive="active">About</a>
       </div>
+
       <div class="nav-item">
-        <a routerLink="/contact">Contact</a>
+        <a routerLink="/contact" routerLinkActive="active">Contact</a>
       </div>
-      
+
       <div *ngIf="islogged; else elseblock2" class="nav-item login">
-        <a routerLink="/" >Logout</a>
+        <a routerLink="/" routerLinkActive="active">Logout</a>
       </div>
       <ng-template #elseblock2>
         <div class="nav-item login">
-          <a routerLink="/login" >Login | Signup</a>
-        </div>
-        
+  <a routerLink="/login">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="orange">
+      <path d="M10 17l5-5-5-5v3H3v4h7v3z"/>
+      <path d="M20 3h-8v2h8v14h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+    </svg>
+    Login | Signup
+  </a>
+</div>
+
       </ng-template>
+
     </div>
   </div>
 </div>
