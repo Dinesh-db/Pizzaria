@@ -29,4 +29,37 @@
   color: #222;
 }
 
+@media (max-width:720px){
+
+  .con-nav-1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    border-bottom: solid;
+    border-bottom-color:red;
+  }
+
+  .nav-items{
+    padding: 10px;
+    display: flex;
+  }
+
+  .name p{
+    display: inline;
+    color: #222;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav-item a{
+    margin: auto;
+    text-decoration: none;
+    color: #222;
+  }
+}
+
 

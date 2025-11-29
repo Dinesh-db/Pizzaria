@@ -19,15 +19,13 @@
       </div>
       
       <div *ngIf="islogged; else elseblock2" class="nav-item">
-        <a routerLink="/">Logout</a>
+        <a routerLink="/" class="login">Logout</a>
       </div>
       <ng-template #elseblock2>
         <div class="nav-item">
-          <a routerLink="/login">Login</a>
+          <a routerLink="/login" class="login">Login | Signup</a>
         </div>
-        <div class="nav-item">
-          <a routerLink="/signup">SignUp</a>
-        </div>
+        
       </ng-template>
     </div>
   </div>
