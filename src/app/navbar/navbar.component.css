@@ -25,19 +25,20 @@
 
 .name p{
   display: inline;
-  color: #222;
+  color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-item {
+  
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .nav-item a{
-  font-size: 20px;
+  
   margin: auto;
   text-decoration: none;
-  color: #222;
+  color: orange;
 }
 
 
