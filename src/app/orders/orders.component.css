@@ -19,7 +19,10 @@
 .con-2{
     display: flex;
 }
-
+.piznames{
+    display: flex;
+    align-items:center;
+}
 .cart{
     flex: 1 0 40%;
     display: flex;

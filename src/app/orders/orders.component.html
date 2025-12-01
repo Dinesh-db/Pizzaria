@@ -6,14 +6,21 @@
     <div *ngFor="let d of pizza" class="cart">
         <div class="pizza">
             <div class="con-2">
-                <div class="piznames">
-                    <p>{{d.name}}</p>
-                    <div *ngIf="d.type=='Non-Veg'; else elseblock1">
-                        <img [src]="nonveg" style="width: 30px; height: 30px;">
+                <div >
+                    <div class="piznames">
+                        <div>
+                            <p>{{d.name}}</p>
+                        </div>
+                        <div>
+                            <div *ngIf="d.type=='Non-Veg'; else elseblock1">
+                                <img [src]="nonveg" style="width: 30px; height: 30px;">
+                            </div>
+                            <ng-template #elseblock1>
+                                <img [src]="veg" style="width: 30px; height: 30px;">
+                            </ng-template>
+                        </div>
                     </div>
-                    <ng-template #elseblock1>
-                        <img [src]="veg" style="width: 30px; height: 30px;">
-                    </ng-template>
+                    
                     <p>{{d.price}}</p>
                     <p>{{d.description}}</p>
                 </div>
