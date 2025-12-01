@@ -9,13 +9,17 @@
     border-radius: 10px;
     border-left:solid;
     border-left-width: 10px;
-    border-left-color: red;
+    border-left-color: orange;
 }
 
 .con-1{
     display: flex;
     flex-wrap: wrap;
 }
+.con-2{
+    display: flex;
+}
+
 .cart{
     flex: 1 0 40%;
     display: flex;
@@ -33,7 +37,7 @@
         border-radius: 10px;
         border-left:solid;
         border-left-width: 10px;
-        border-left-color: red;
+        border-left-color: orange;
     }
     .con-1{
         display: flex;
