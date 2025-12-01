@@ -46,6 +46,10 @@
 .nav-item.login {
   margin-left:auto;
 }
+.name{
+  display: flex;
+  align-items: center;
+}
 
 
 .hamburger {
@@ -57,7 +61,67 @@
 
 @media (max-width:720px){
 
-  
+  .con-nav-1 {
+  background:black;
+  border-bottom:2px solid red;
+  border-radius:10px;
+  padding:8px;
+}
+
+.nav-items {
+  display:flex;
+  align-items:center;
+}
+
+.nav-item {
+  margin:0 12px;
+}
+.name p{
+  color: #fff;
+}
+
+.logo {
+  width:28px;
+  height:28px;
+  margin-right:8px;
+}
+
+.nav-item a {
+  text-decoration:none;
+  color:orange;
+  font-weight:600;
+  padding:6px 10px;
+  border-radius:6px;
+  transition:.3s;
+}
+
+.nav-item a:hover {
+  background:orange;
+  color:black;
+}
+
+.nav-item a.active {
+  background:orange;
+  color:black;
+}
+
+
+.nav-item.login {
+  margin-left:auto;
+}
+.name{
+  display: flex;
+  align-items: center;
+}
+
+
+.hamburger {
+  display:none;
+  color:orange;
+  font-size:26px;
+  cursor:pointer;
+}
+
   
 }
 
