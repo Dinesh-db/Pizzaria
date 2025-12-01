@@ -19,6 +19,16 @@
 .con-2{
     display: flex;
 }
+
+.con-3{
+    display:flex;
+    
+}
+
+.addto{
+    justify-content: flex-end;
+    margin-left: auto;
+}
 .piznames{
     display: flex;
     align-items:center;
