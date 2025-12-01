@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { ServiceService } from '../service.service';
-
-
+import data from "../../assets/data.json";
 
 @Component({
   selector: 'app-orders',
@@ -24,6 +23,11 @@ export class OrdersComponent {
   isClicked:boolean=false;
   getdatas(){
     this.isClicked=true;
+  }
+  Senddata(){
+    this.pc.senddata(data.pizzas).subscribe((e)=>{
+      console.log("Data sent",e);
+    })
   }
   
   cleardata(){
