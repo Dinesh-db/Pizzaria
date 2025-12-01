@@ -19,7 +19,15 @@
 .con-2{
     display: flex;
 }
-
+.added{
+    border-radius: 6px;
+    padding: 5px;
+    background-color: rgb(128, 5, 5);
+    color: #fff;
+}
+.added:hover{
+    background-color: green;
+}
 .con-3{
     display:flex;
     
